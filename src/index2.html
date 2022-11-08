@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CRUD App</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="photon.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+  <body>
+
+        <div class="background">
+            <br><br>
+            <h1 class="text-center" style="color: white;">GROCERIES SHOPPING NOTES</h1>
+            <br>
+            <div class="topnav">
+              <a href="C:\Users\nurul\Documents\assignOOP\assignment\src\index.html">Home</a>
+              <a class="active" href="Notes">Notes</a>
+              <a href="#" class="button" onclick="self.close();">Exit</a>
+            </div>
+        </div>
+        <!--create form to enter notes-->
+      <form class="form2">
+        <div class="form-group">
+          <center><label><strong><h2>Meal Name</h2></strong></label></center>
+          <input id="fileName" type="text" class="form-control">
+        </div>
+
+        <div class="form-group">
+        <center><label><strong><h2>Content</h2></strong></label></center>
+          <textarea id="fileContents" class="form-control" rows="5"></textarea>
+          <br>
+          
+        </div>
+      </form>
+      <!--create button create update delete and read-->
+          <button id="btnCreate" class="btn btn-default" style="margin-left:25px;">Create</button>
+          <button id="btnRead" class="btn btn-default">Read</button>
+          <button id="btnDelete" class="btn btn-default">Delete</button>
+          <button id="btnUpdate" class="btn btn-default">Update</button>
+
+
+    <script src="main2.js">
+      
+      
+    </script>
+  </body>
+</html>
